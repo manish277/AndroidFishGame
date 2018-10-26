@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Flying Fish</string>
+    <string name="the_flying_fish">The Flying Fish</string>
+    <string name="design_and_developed_by_manish_kumar_yadav">Powered By \n <i><b> <font size="24"> Manish Kumar Yadav </font>  </b> </i>  </string>
+    <string name="manish_kumar_yadav"><b>Manish Kumar Yadav</b></string>
+    <string name="start_game">START GAME</string>
+    <string name="nit_durgapur">NIT DURGAPUR</string>
+    <string name="mobile_no_8423217878">Mobile No. 8423217878 \nEmail: manishkumaryadav189@gmail.com</string>
+</resources>

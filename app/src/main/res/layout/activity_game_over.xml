@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".GameOverActivity">
+
+
+    <TextView
+        android:id="@+id/gameover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Game Over"
+        android:textColor="@color/colorAccent"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+<Button
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/gameover"
+    android:id="@+id/play_againButton"
+    android:layout_centerHorizontal="true"
+    android:background="@color/colorAccent"
+    android:padding="10dp"
+    android:gravity="center"
+
+    android:text="Play Again"
+    android:textAllCaps="false"
+    android:textColor="@android:color/background_light"
+    android:textSize="18sp"
+    android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/gamescore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="143dp"
+        android:layout_marginBottom="277dp"
+        android:text="Score"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/aboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp"
+        android:text="About Us"
+
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="monospace" />
+</RelativeLayout>
